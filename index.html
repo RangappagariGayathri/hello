@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gayathri's Portfolio</title>
+<style>
+
+  /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f0f4f8;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2937;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content span {
+  color: #fff;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Sections */
+section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+section p {
+  margin-bottom: 1rem;
+}
+
+/* Resume Button */
+.btn {
+  background-color: #00bcd4;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0097a7;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form input, form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #00bcd4;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0097a7;
+}
+
+/* Footer */
+footer {
+  background: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+</style>
+<script>
+console.log("Welcome to Gayathri's Portfolio");
+</script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Gayathri</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="https://i.pravatar.cc/220?img=5" alt="Gayathri Photo" class="profile-img"/>
+      <h1>Hello, I'm <span>Gayathri</span></h1>
+      <p>MCA Student at Mother Theresa College</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am passionate about software development, web design, and emerging tech trends.</p>
+    <video width="100%" controls>
+      <source src="assets/video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Click below to view or download my resume.</p>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+   
+   <p>you can reach me at :<a href="mailto:gayathri@example.com"></a></p>
+   <p>Or Connect on Social media:</p>
+  <div>
+       <a href="#" aria-lable="Linkedin" style="color:#0077b5;">&#xf08c;</a>
+       <a href="#" aria-lable="Linkedin" style="color:#0077b5;">&#xf08c;</a>
+       <a href="#" aria-lable="Linkedin" style="color:#0077b5;">&#xf08c;</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Gayathri. All rights reserved.</p>
+  </footer>
+
+  <script>
+ console.log("Welcome to Gayathri's Portfolio");
+</script>
+</body>
+</html>
